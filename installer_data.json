@@ -1,0 +1,36 @@
+{
+  "os_list": [
+    {
+      "boot_object": "m1n1.bin",
+      "default_os_name": "NixOS",
+      "name": "NixOS 26.11",
+      "next_object": "m1n1/boot.bin",
+      "package": "http://localhost:8000/nixos-asahi-0.1.308-dirty-ext4.zip",
+      "icon": "NixOS.icns",
+      "partitions": [
+        {
+          "copy_firmware": true,
+          "copy_installer_data": true,
+          "format": "fat",
+          "name": "EFI",
+          "size": "529530880B",
+          "source": "esp",
+          "type": "EFI",
+          "volume_id": "0x12cea600"
+        },
+        {
+          "expand": true,
+          "image": "root.img",
+          "name": "Root",
+          "size": "5403312128B",
+          "type": "Linux"
+        }
+      ],
+      "supported_fw": [
+        "12.3",
+        "12.3.1",
+        "13.5"
+      ]
+    }
+  ]
+}
