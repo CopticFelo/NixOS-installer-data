@@ -5,7 +5,7 @@
       "default_os_name": "NixOS",
       "name": "NixOS 26.11",
       "next_object": "m1n1/boot.bin",
-      "package": "http://localhost:8000/nixos-asahi-0.1.308-dirty-ext4.zip",
+      "package": "https://github.com/CopticFelo/NixOS-installer-data/releases/download/os/nixos-asahi-0.1.308-dirty-ext4.zip",
       "icon": "NixOS.icns",
       "partitions": [
         {
