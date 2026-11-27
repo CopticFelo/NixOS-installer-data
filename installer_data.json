@@ -3,10 +3,10 @@
     {
       "boot_object": "m1n1.bin",
       "default_os_name": "NixOS",
+      "icon": "NixOS.icns",
       "name": "NixOS 26.11",
       "next_object": "m1n1/boot.bin",
-      "package": "https://github.com/CopticFelo/NixOS-installer-data/releases/download/os/nixos-asahi-0.1.308-dirty-ext4.zip",
-      "icon": "NixOS.icns",
+      "package": "https://github.com/CopticFelo/NixOS-installer-data/releases/download/os/nixos-asahi-0.1.328-dirty-ext4.zip",
       "partitions": [
         {
           "copy_firmware": true,
@@ -22,7 +22,7 @@
           "expand": true,
           "image": "root.img",
           "name": "Root",
-          "size": "5403312128B",
+          "size": "5557452800B",
           "type": "Linux"
         }
       ],
